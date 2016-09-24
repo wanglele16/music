@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="YunMusic.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+
+<body>
+<div class="wrap">
+    <div class="top">
+        <div class="banner">
+            <img src="img/1989.png" alt="1989"  id = "cd" class = 'rotate'>
+            <div class="hook"></div>
+        </div>
+        <div class="right">
+            <header id = "headChange">Style</header>
+            <p class = "author"><span>Taylor Swift</span><i>专辑:1989</i></p>
+            <p class = "control">
+                <i class="icon-fast-backward icon-2x" id = "forward"></i>
+                <i class="icon-play icon-2x" id = "play"></i>
+                <i class="icon-fast-forward icon-2x" id = "next"></i>
+            </p>
+            <span class='cur'></span><input type="range" min=0 max=100 class='range' value=0><span class='max'>&ensp;&ensp;&ensp;&ensp;&ensp;</span>
+            <b class="vol icon-volume-up"></b>
+            <span class = "volVal">100%</span>
+            <!--<div class="volshow"></div>-->
+            <input type="range" min=0 max=100 class='range2' value=100>
+            <audio  src="audio/1.mp3"></audio>
+        </div>
+    </div>
+    <ul class="bottom">
+        <li class = "bg highlight"><a href="javascript:void(0)">
+            <h3>Style</h3>
+            <p><span>Taylor Swift</span> <i>专辑:1989</i></p>
+        </a></li>
+        <li class = "bg"><a href="javascript:void(0)">
+            <h3>Blank Space</h3>
+            <p><span>Taylor Swift</span> <i>专辑:1989</i></p>
+        </a></li>
+        <li class = "bg"><a href="javascript:void(0)">
+            <h3>Wildest Dreams</h3>
+            <p><span>Taylor Swift</span> <i>专辑:1989</i></p>
+        </a></li>
+        <li class = "bg"><a href="javascript:void(0)">
+            <h3>This Love</h3>
+            <p><span>Taylor Swift</span> <i>专辑:1989</i></p>
+        </a></li>
+    </ul>
+</div>
+
+
+<script src = "jquery-3.1.0.js"></script>
+<script src = "YunMusic.js"></script>
+</body>
+</html>
